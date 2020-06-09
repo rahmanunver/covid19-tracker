@@ -1,5 +1,14 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+A COVID-19 Tracker I've created to where you can see Global(Total) and individual numbers for each country.
+
+## Project Summary
+##### The data available are: Infected, Recovered, Deaths
+The country your IP matches will be shown on top of the country picker.
+
+### Charts
+I've used Chart.js for the data visualisation. A Line chart is used for the Global data, and a Bar chart is used for individual country data.
+
 ## Available Scripts
 
 In the project directory, you can run:
