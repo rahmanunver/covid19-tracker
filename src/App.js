@@ -8,6 +8,7 @@ import styles from './App.module.css';
 import { fetchData, fetchCurrentCountry } from './API';
 
 import covidImage from './Images/covid19img.png'
+import githubImage from './Images/github.png'
 class App extends Component {
 	state = {
 		data: {},
@@ -34,6 +35,9 @@ class App extends Component {
 				<Cards data={ data } />
 				<CountryPicker handleCountryChange={ this.handleCountryChange } currentCountry={ currentCountry } />
 				<Chart data={ data } country={ country } />
+				<a href='https://github.com/rahmanunver/covid19-tracker'>
+					<img className={ styles.githubImage } src={ githubImage } alt="Github" />
+				</a>
 			</div>
 		);
 	}
