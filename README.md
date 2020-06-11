@@ -6,7 +6,9 @@ A COVID-19 Tracker I've created to where you can see Global(Total) and individua
 
 This project is created with React.js, Charts.js, and @material-ui
 
-##### The data available are: Infected, Recovered, Deaths
+##### The data available are: Infected, Recovered, Deaths.
+Retrieved from @mathdroid's API: 
+https://github.com/mathdroid/covid-19-api
 
 The country your IP matches will be shown on top of the country picker.
 
